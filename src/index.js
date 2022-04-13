@@ -1,13 +1,23 @@
 import React from 'react';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import DataTableWithButtons from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <BrowserRouter>
+      <Switch>
+      <Route exact path="/">
+        <DataTableWithButtons />
+        </Route>
+
+      </Switch>
+      </BrowserRouter>
+    
   </React.StrictMode>
 );
 
