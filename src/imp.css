@@ -1,0 +1,208 @@
+.custom-data-table .align-items-start {
+  align-items: flex-start !important;
+}
+.custom-data-table .mt-0 {
+  margin-top: 0 !important;
+}
+.custom-data-table .btn-primary {
+  border-color: #7367f0 !important;
+  background-color: #7367f0 !important;
+  color: #fff !important;
+}
+.custom-data-table .btn {
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.786rem 1.5rem;
+  border-radius: 0.358rem;
+  font-weight: 500;
+  user-select: none;
+  font-size: 1rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, background 0s,
+    border 0s;
+  display: inline-block;
+  line-height: 1;
+}
+.custom-data-table .ms-50 {
+  margin-left: 0.5rem !important;
+}
+.custom-data-table .align-middle {
+  vertical-align: middle !important;
+}
+.custom-data-table .btn span {
+  font-size: 14px;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+.mx-0,
+.mx-0 {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+.mt-1 {
+  margin-top: 1rem !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+.d-flex {
+  display: flex !important;
+}
+.me-1 {
+  margin-right: 1rem !important;
+}
+.custom-data-table .form-label {
+  margin-bottom: 0.2857rem;
+}
+.custom-data-table .form-label {
+  font-size: 0.95rem;
+  color: #5e5873;
+}
+.custom-data-table label {
+  display: inline-block;
+}
+.mb-50 {
+  margin-bottom: 0.5rem !important;
+}
+.custom-data-table .form-control-sm {
+  padding: 0.188rem 0.857rem;
+  border-radius: 0.357rem;
+}
+.custom-data-table .form-control {
+  padding: 0.571rem 1rem;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d8d6de;
+  border-radius: 0.357rem;
+}
+.custom-data-table .dataTable-filter {
+  max-width: 220px;
+}
+.custom-data-table .form-control-sm {
+  min-height: 2.142rem;
+  font-size: 0.857rem !important;
+}
+.custom-data-table .form-control {
+  outline: none;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #6e6b7b;
+  -webkit-appearance: none;
+  appearance: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.custom-data-table .form-control-sm {
+  padding: 0.188rem 0.857rem;
+  border-radius: 0.357rem;
+}
+@media (min-width: 768px) {
+  .mt-md-0 {
+    margin-top: 0 !important;
+  }
+}
+.custom-data-table h4 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #5e5873 !important;
+}
+.custom-data-table .border-bottom {
+  border-bottom: 1px solid #ebe9f1 !important;
+}
+.align-items-center {
+  align-items: center !important;
+}
+.d-flex {
+  display: flex !important;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.d-block {
+  display: block !important;
+}
+.fw-bold {
+  font-weight: 500 !important;
+}
+
+.bg-light-success {
+  background: rgba(40, 199, 111, 0.12) !important;
+}
+.rounded-pill {
+  border-radius: 50rem !important;
+}
+.badge {
+  padding: 0.3rem 0.5rem;
+  text-align: center;
+  border-radius: 0.358rem;
+}
+.bg-light-success {
+  color: #28c76f !important;
+}
+.bg-light-info {
+  background: rgba(0, 207, 232, 0.12) !important;
+}
+.badge {
+  display: inline-block;
+  font-size: 85%;
+  font-weight: 600;
+  line-height: 1;
+  color: #fff;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+.bg-light-info {
+  color: #00cfe8 !important;
+}
+.bg-light-primary {
+  color: #7367f0 !important;
+}
+.bg-light-primary {
+  background: rgba(115, 103, 240, 0.12) !important;
+}
+.bg-light-danger {
+  background: rgba(234, 84, 85, 0.12) !important;
+}
+.bg-light-danger {
+  color: #ea5455 !important;
+}
+.bg-light-warning {
+  background: rgba(255, 159, 67, 0.12) !important;
+}
+.bg-light-warning {
+  color: #ff9f43 !important;
+}
+.pe-1 {
+  padding-right: 1rem !important;
+}
+.mt-1 {
+  margin-top: 1rem !important;
+}
+.custom-data-table .pagination {
+  padding-left: 0;
+}
+.custom-data-table .pagination {
+  display: flex;
+  list-style: none;
+}

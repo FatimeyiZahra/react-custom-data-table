@@ -1,0 +1,254 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.react-dataTable{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+.react-dataTable .rdt_TableHead .rdt_TableHeadRow {
+  background-color: #f3f2f7;
+  border-color: currentcolor #ebe9f1 #ebe9f1;
+  border-top: 1px solid #ebe9f1;
+}
+.react-dataTable .rdt_TableHead .rdt_TableHeadRow {
+  min-height: 0;
+  height: 38px;
+}
+.react-dataTable {
+  border-radius: 0;
+}
+.react-dataTable .rdt_TableHead .rdt_TableHeadRow {
+  min-height: 0;
+  height: 38px;
+}
+.react-dataTable .rdt_TableHead .rdt_TableHeadRow {
+  background-color: #f3f2f7;
+  border-color: currentcolor #ebe9f1 #ebe9f1;
+  border-top: 1px solid #ebe9f1;
+}
+
+.react-dataTable
+  .rdt_TableHead
+  .rdt_TableHeadRow
+  .rdt_TableCol
+  .rdt_TableCol_Sortable {
+  color: #6e6b7b;
+  font-weight: 700;
+  font-style: 0.857rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.react-dataTable
+  .rdt_TableHead
+  .rdt_TableHeadRow
+  .rdt_TableCol
+  .rdt_TableCol_Sortable:hover {
+  opacity: 1;
+}
+.react-dataTable
+  .rdt_TableHead
+  .rdt_TableHeadRow
+  .rdt_TableCol
+  .rdt_TableCol_Sortable
+  span {
+  margin-left: 0.35rem;
+}
+.react-dataTable
+  .rdt_TableHead
+  .rdt_TableHeadRow
+  .rdt_TableCol
+  .rdt_TableCol_Sortable
+  span {
+  margin-right: 0.35rem;
+}
+  
+    .react-dataTable
+    .rdt_TableHead
+    .rdt_TableHeadRow
+    .rdt_TableCol:first-child
+    .form-check {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+ 
+    /* .react-dataTable
+    .rdt_TableHead
+    .rdt_TableHeadRow
+    .rdt_TableCol:first-child
+    .form-check {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  } */
+  .custom-data-table .form-check .form-check-input {
+    float: left;
+    margin-left: -1.785rem;
+}
+.react-dataTable .rdt_TableBody .rdt_TableRow {
+  color: #6e6b7b;
+}
+.react-dataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell {
+  height: 53px;
+}
+.react-dataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell {
+  padding: 0.72rem 1.5rem;
+}
+.react-dataTable
+  .rdt_TableBody
+  .rdt_TableRow
+  .rdt_TableCell
+  .column-action
+  svg {
+  stroke: #6e6b7b;
+}
+.react-dataTable
+  .rdt_TableBody
+  .rdt_TableRow
+  .rdt_TableCell
+  .column-action
+  .dropdown-item:hover
+  svg {
+  stroke: #7367f0;
+}
+.react-dataTable
+  .rdt_TableBody
+  .rdt_TableRow
+  .rdt_TableCell
+  .column-action
+  .dropdown-item:active
+  svg {
+  stroke: #fff;
+}
+.react-dataTable
+  .react-paginate.separated-pagination
+  .page-item:first-child
+  .page-link,
+.react-dataTable
+  .react-paginate.separated-pagination
+  .page-item:last-child
+  .page-link {
+  border-radius: 50%;
+}
+.react-dataTable.roles-table
+  .rdt_TableHead
+  .rdt_TableHeadRow
+  .rdt_TableCol:first-child
+  .form-check {
+  -webkit-transform: translateX(0);
+}
+
+.react-dataTable.roles-table
+  .rdt_TableHead
+  .rdt_TableHeadRow
+  .rdt_TableCol:first-child
+  .form-check {
+  transform: translateX(0);
+}
+.react-dataTable.roles-table
+  .rdt_TableBody
+  .rdt_TableRow
+  .rdt_TableCell:first-child
+  .form-check {
+  -webkit-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+.react-dataTable.roles-table
+  .rdt_TableBody
+  .rdt_TableRow
+  .rdt_TableCell:first-child
+  .form-check {
+  -webkit-transform: translateX(-10px);
+  transform: translateX(-10px);
+}
+@media (max-width: 740px) {
+  .permission-header .add-permission {
+    margin-top: 1rem !important;
+  }
+}
+.rdt_Pagination select {
+  min-width: 30px;
+}
+.rdt_Pagination select:active,
+.rdt_Pagination select:focus {
+  outline: 0;
+}
+.dataTable-filter {
+  max-width: 220px;
+}
+.dataTable-select {
+  width: 5rem;
+}
+.dataTable-select:not([multiple="multiple"]) {
+  background-size: 10px 10px, 10px 10px;
+}
+.dataTable-select:not([multiple="multiple"]) {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  background-position: calc(100% - 12px) 10px, calc(100% - 20px) 12px, 100% 0;
+}
+.dataTable-select:not([multiple="multiple"]) {
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+  background-position: 12px 10px, 20px 12px, 0 0;
+}
+.custom-data-table .form-check-input[type="checkbox"] {
+  border-radius: 3px;
+}
+.custom-data-table .form-check .form-check-input {
+  float: left;
+  margin-left: -1.785rem;
+}
+.custom-data-table .form-check-input {
+  margin-top: 0.0825rem;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+  border: 1px solid #d8d6de;
+}
+.custom-data-table .form-check-input {
+  width: 1.285rem;
+  height: 1.285rem;
+  vertical-align: top;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
+.react-dataTable .rdt_TableHead .rdt_TableHeadRow .rdt_TableCol {
+  padding: 0.72rem 1rem;
+}
+.custom-data-table .form-check {
+  padding-left: 1.785rem;
+}
+.custom-data-table .form-check {
+  margin-bottom: 0;
+}
+.custom-data-table .form-check-input:not(:disabled):checked {
+    box-shadow: 0 2px 4px 0 rgb(115 103 240 / 40%);
+} 
+.custom-data-table .form-check-input:checked {
+    background-color: #7367f0;
+    border-color: #7367f0;
+}
+.form-check-input:checked[type=checkbox] {
+    background-image: url(data:image/svg+xml;charset=utf8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 9.5 7.5'%3e%3cpolyline points='0.75 4.35 4.18 6.75 8.75 0.75' style='fill:none;stroke:%23fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px'/%3e%3c/svg%3e);
+}
+.custom-data-table  .form-check-input {
+    margin-top: 0.0825rem;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    border: 1px solid #d8d6de;
+}
+.custom-data-table .form-check .form-check-input {
+    float: left;
+    margin-left: -1.785rem;
+}
+.custom-data-table
+.form-check:not(.form-switch) .form-check-input[type=checkbox]:checked {
+    background-size: 65%;
+}.react-dataTable .rdt_TableBody .rdt_TableRow {
+    color: #6e6b7b;
+}

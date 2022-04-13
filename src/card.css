@@ -1,0 +1,79 @@
+.card {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+}
+.card {
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(34, 41, 47, 0.125) !important;
+  border-radius: 0.428rem;
+}
+.card {
+  transition: all 0.3s ease-in-out, background 0s, color 0s, border-color 0s;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+}
+.cardHeaderCustom {
+  border-bottom: 1px solid #edf2f9 !important;
+  padding-bottom: 15px !important;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.card-header:first-child {
+  border-radius: 0.428rem 0.428rem 0 0;
+}
+.card .card-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-header {
+  padding: 1rem 1.5rem;
+  margin-bottom: 0;
+  background-color: transparent;
+  border-bottom: 0 solid rgba(34, 41, 47, 0.125);
+}
+.card .card-header .card-title {
+  margin-bottom: 0;
+}
+.card .card-title {
+  font-weight: 500;
+  font-size: 1.285rem;
+}
+.card .card-header + .card-body {
+  padding-top: 0px;
+}
+.card .card-header + .card-body {
+  padding-top: 0px;
+}
+.card-body {
+  flex: 1 1 auto;
+}
+.card-transaction .transaction-item:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+/* .card-transaction .transaction-item:not(:last-child) {
+        margin-bottom: 1.2rem;
+    } */
+.card-transaction .transaction-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-transaction .transaction-item .avatar {
+  margin-right: 1.2rem;
+}
+.card-body {
+  padding: 1.5rem 1.5rem;
+}

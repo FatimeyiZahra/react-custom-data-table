@@ -95,24 +95,25 @@ export const columns = [
               <MoreVertical size={15} />
             </DropdownToggle>
             <Link to={`/${row.id}`}>
-              <span className="align-middle ms-50">Archive</span>
+              <Edit size={15} />
             </Link>
+            
           </UncontrolledDropdown>
         </div>
       );
     },
   },
-  {
-    name: "asas",
-    allowOverflow: true,
-    cell: () => {
-      return (
-        <div className="d-flex">
-          <Edit size={15} />
-        </div>
-      );
-    },
-  },
+  // {
+  //   name: "asas",
+  //   allowOverflow: true,
+  //   cell: () => {
+  //     return (
+  //       <div className="d-flex">
+  //         <Edit size={15} />
+  //       </div>
+  //     );
+  //   },
+  // },
 ];
 
 export const data = [
