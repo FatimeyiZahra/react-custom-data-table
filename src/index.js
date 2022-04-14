@@ -7,6 +7,7 @@ import './imp.css';
 import './table.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import DataTableWithButtons from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
