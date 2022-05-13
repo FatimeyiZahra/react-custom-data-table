@@ -1,31 +1,22 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import './card.css';
-import './imp.css';
-import './table.css'
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import DataTableWithButtons from './App';
+import ReactDOM from "react-dom/client";
+import "./css/index.css";
+import "./css/card.css";
+import "./css/imp.css";
+import "./css/table.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import DataTableWithButtons from "./DataTableWithButtons";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-      <BrowserRouter>
+    <BrowserRouter>
       <Switch>
-      <Route exact path="/">
-        <DataTableWithButtons />
+        <Route exact path="/">
+          <DataTableWithButtons />
         </Route>
-
       </Switch>
-      </BrowserRouter>
-    
+    </BrowserRouter>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
